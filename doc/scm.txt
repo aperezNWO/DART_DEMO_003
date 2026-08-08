@@ -1,0 +1,67 @@
+##################################################
+## SCM 
+##################################################
+
+##################################################
+## GIT
+##################################################
+echo "# DART_DEMO_003" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aperezNWO/DART_DEMO_003.git
+git push -u origin main
+
+
+##################################################
+## DART / flutter 
+##################################################
+
+##################################################
+## CREATE CONSOLE PROJECT 
+##################################################
+
+(ORIGINALLY it WAS A FLUTTER PROJECT/ PENDING TO CREATE A CONSOLE PROJECT)
+cd D:\usuarios\pabloperez\dev\dart\ping
+dart create -t console dart_zero_endpoint
+
+##################################################
+## EXECUTE PROJECT (NOT APPLY)
+##################################################
+ 
+## CONSOLE 
+
+dart pub get   
+
+dart pub outdated 
+
+dart run bin/server.dart
+
+##################################################
+## FLUTTER  
+##################################################
+
+flutter pub get   
+
+flutter pub outdated 
+
+Flutter pub upgrade --dry-run 
+
+flutter run lib/main.dart
+
+
+##################################################
+## test output
+##################################################
+
+(a automated chrome window appear)
+
+##################################################
+## GIT HUB PAGES
+##################################################
+
+flutter build web --web-renderer html --release
+
+##################################################
+##################################################
