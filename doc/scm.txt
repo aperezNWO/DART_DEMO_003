@@ -61,12 +61,9 @@ flutter run lib/main.dart
 ## GIT HUB PAGES
 ##################################################
 
-flutter build web --release
-
-flutter build web --release --base-href /
-
 flutter build web --release --base-href /DART_DEMO_003/
 
+# Only once 
 dart pub global activate gh_pages
 
 dart pub global run gh_pages -b gh-pages build/web
