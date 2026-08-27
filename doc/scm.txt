@@ -66,6 +66,26 @@ flutter build web --release --base-href /DART_DEMO_003/
 # Only once 
 dart pub global activate gh_pages
 
+    Output:
+
+    Checking Dart SDK version... 
+    Downloading Dart SDK from Flutter engine 0cd610717bde95fd88343c64f81c11ba4e5c0010... 
+    Expanding downloaded archive with PowerShell...
+
+    Terminal
+
+    Wasm dry run succeeded. Consider building and testing your application with the `--wasm` flag. See docs for
+    more info: https://docs.flutter.dev/platform-integration/web/wasm
+    Use --no-wasm-dry-run to disable these warnings.
+    Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 1472 bytes (99.4% reduction).
+    Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+    Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 7800 bytes (99.5%
+    reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+    Compiling lib\main.dart for the Web...                             49,5s
+    √ Built build\web
+
+
+
 dart pub global run gh_pages -b gh-pages build/web
 
 https://apereznwo.github.io/DART_DEMO_003/
